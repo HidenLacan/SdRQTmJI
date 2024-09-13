@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Model Hero Section</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="text-white text-lg font-bold">
+          <a href="#">Your Brand</a>
+        </div>
+        <!-- Navbar Links -->
+        <ul class="flex space-x-6">
+          <li><a href="#" class="text-white hover:text-yellow-400">Home</a></li>
+          <li><a href="#" class="text-white hover:text-yellow-400">About</a></li>
+          <li><a href="#" class="text-white hover:text-yellow-400">Services</a></li>
+          <li><a href="#" class="text-white hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex flex-col md:flex-row items-center justify-center min-h-screen max-w-7xl mx-auto p-8 bg-white">
+      
+      <!-- 3D Model Viewer on the left -->
+      <div class="w-full md:w-1/2 flex items-center justify-center">
+        <model-viewer
+          src="helmet/scene.gltf"
+          alt="3D model"
+          auto-rotate
+          camera-controls
+          shadow-intensity="1"
+          class="w-full h-[500px] md:h-[700px] object-cover"
+        ></model-viewer>
+      </div>
+
+      <!-- Heading and Text on the right -->
+      <div class="w-full md:w-1/2 text-center md:text-left p-8">
+        <h1 class="text-5xl md:text-6xl font-extrabold text-yellow-500 mb-4">Your Dreams are our goals</h1>
+        <p class="text-xl md:text-2xl font-semibold text-gray-700 mt-4">
+          Be the change in your sector
+        </p>
+      </div>
+      
+    </div>
+  </body>
+</html>
+

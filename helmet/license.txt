@@ -1,0 +1,8 @@
+Model Information:
+* title:	FIGHTER HELMET /01
+* source:	https://sketchfab.com/3d-models/fighter-helmet-01-1a85d0ce3d8d40fe90b12284b45334c9
+* author:	AlexW888 (https://sketchfab.com/AlexSimonov)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
